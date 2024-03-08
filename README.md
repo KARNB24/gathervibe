@@ -53,6 +53,13 @@ And many more features to explore, ensuring a robust and user-friendly event org
 ## Test Live App
 https://gathervibe.vercel.app/
 
+## Stripe Demo Card Details
+```bash
+Card Number: 4242 4242 4242 4242
+EXP: 01/26
+CVV: 301
+```
+
 ## Installation
 
 ### Cloning the Repository
