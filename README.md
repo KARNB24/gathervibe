@@ -11,7 +11,9 @@ GatherVibe is a Meetup or Eventbrite-like event organization web app created usi
 
 ## Features
 
-🔐 **Authentication (CRUD) with Clerk:** Efficient user management facilitated by Clerk, ensuring secure authentication processes.
+🔐 **Authentication (CRUD) with Clerk:** Efficient user management facilitated by Clerk, ensuring secure authentication processes. 
+    (Note: For this project I have only utilized Google and Github Auth for creating events, updating events, buying specific events, etc. So by signing up using email and password won't work)
+    *** Only use Google or Github Auth
 
 📅 **Events (CRUD):** Full-fledged event management capabilities allowing users to create, read, update, and delete events effortlessly.
 
