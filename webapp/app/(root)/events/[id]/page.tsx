@@ -1,3 +1,4 @@
+import CheckoutButton from "@/components/shared/CheckoutButton";
 import Collection from "@/components/shared/Collection";
 import {
   getEventById,
@@ -51,7 +52,7 @@ const EventDetails = async ({
                 </p>
               </div>
             </div>
-            {/* <CheckoutButton event={event} /> */}
+            <CheckoutButton event={event}/>
 
             <div className="flex flex-col gap-5">
               <div className="flex gap-2 md:gap-3">
@@ -64,11 +65,11 @@ const EventDetails = async ({
                 <div className="p-medium-16 lg:p-regular-20 flex flex-wrap items-center">
                   <p>
                     {formatDateTime(event.startDateTime).dateOnly} -{" "}
-                    {formatDateTime(event.startDateTime).timeOnly} -{" "}
+                    {formatDateTime(event.startDateTime).timeOnly}
                   </p>
                   <p>
                     {formatDateTime(event.endDateTime).dateOnly} -{" "}
-                    {formatDateTime(event.endDateTime).timeOnly} -{" "}
+                    {formatDateTime(event.endDateTime).timeOnly}
                   </p>
                 </div>
               </div>
@@ -86,7 +87,7 @@ const EventDetails = async ({
               <p className="p-bold-20 text-grey-600">What You'll Learn:</p>
               <p className="p-medium-16 lg:p-regular-18">{event.description}</p>
               <p className="p-medium-16 lg:p-regular-18 truncate text-primary-500 underline">
-                {event.url}
+                <a href={event.url} target="_blank">Event URL</a>
               </p>
             </div>
           </div>
