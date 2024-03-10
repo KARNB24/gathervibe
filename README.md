@@ -48,7 +48,7 @@ And many more features to explore, ensuring a robust and user-friendly event org
 - **Payment:** Stripe
 - **Validation:** Zod
 - **Form Handling:** React Hook Form
-- **File Upload:** Uploadthing
+- **Image Upload:** Uploadthing
 
 ## Test Live App
 https://gathervibe.vercel.app/
